@@ -24,3 +24,5 @@ public class EvenOddNumber {
         scan.close(); 
     }
 }
+
+
