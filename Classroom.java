@@ -1,6 +1,6 @@
-public class Classroom {
+class Classroom {
 
-  Student[] students = new Student[5];
+  StudentBasic[] students = new StudentBasic[5];
   int count = 0;
 
   void showAllStudents(){
@@ -30,7 +30,7 @@ public class Classroom {
       System.out.println("Classroom full");
     }
     else{
-      students[count] = new Student(id, name);
+      students[count] = new StudentBasic(id, name);
       count++;
       System.out.println("Student added");
     }

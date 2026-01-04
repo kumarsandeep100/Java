@@ -16,7 +16,7 @@ class Student extends Person{
   }
 
   public static void main(String[] args) {
-    Student s1 = new Student();
+    StudentBasic s1 = new StudentBasic();
     s1.study();
     
     
